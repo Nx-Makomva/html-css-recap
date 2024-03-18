@@ -101,9 +101,14 @@ img {
   border-radius: 5px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
 footer h3 {
-  font-size: 16px;
-  margin: 10px;
+  font-size: 20px;
+  margin: 20px 20px 30px;
 }
 
 /* challenge
