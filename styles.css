@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Patrick+Hand+SC&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Josefin Slab';
+  opacity: 0.9;
+}
+
+nav ul {
+  list-style-type: none;
+  /* margin: 0;
+  padding: 0; */
+  background-color: black;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  font-family: 'Patrick Hand SC';
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+
+.about:active {
+  color: green;
+}
+
+.about {
+  margin: 10px;
+}
+
+.highlight {
+  color: #ff4500;
+  margin-left: 10px;
+}
+
+.skills:hover {
+  color: black;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  margin: 10px;
+  padding: 20px;
+  border: #ff4500 2px solid;
+
+    h2 {
+      display: inline-block;
+    }
+}
+
+.project {
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+h2, h3 {
+  font-family: 'Josefin Slab';
+  font-size: 36px;
+}
+
+p {
+  font-family: 'Patrick Hand SC';
+  font-size: 24px;
+}
+
+
+
+img {
+  width: 30%;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+footer h3 {
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* challenge
+   
+  - add appropriate styles to the projects section
+  - add fonts to our page (link) 
+
+*/
